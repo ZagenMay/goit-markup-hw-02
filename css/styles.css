@@ -5,10 +5,9 @@
   --main-font-color: #212121;
   --secondary-font-color: #ffffff;
   --descriprion-font-color: #757575;
-  --hover-hero-btn-color: #188CE8;
-  --background-color-team: #f5f4fa; 
+  --hover-hero-btn-color: #188ce8;
+  --background-color-team: #f5f4fa;
   --second-background-color: #2f303a;
-}
 }
 
 body {
@@ -79,22 +78,22 @@ body {
 }
 
 .modal-btn-hero {
-font-family: var(--main-font);
-background-color: var(--accent-color);
-cursor: pointer;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: var(--secondary-font-color);
+  font-family: var(--main-font);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-font-color);
 }
 
 .modal-btn-hero:hover,
 .modal-btn-hero:focus {
-background-color: var(--hover-hero-btn-color);
+  background-color: var(--hover-hero-btn-color);
 }
 
 /* ==============END HERO=========== */
