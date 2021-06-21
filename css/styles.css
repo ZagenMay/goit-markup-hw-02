@@ -2,10 +2,17 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
+  --main-font-color: #212121;
+  --secondary-font-color: #ffffff;
+  --descriprion-font-color: #757575;
+  --hover-hero-btn-color: #188CE8;
+  --background-color-team: #f5f4fa; 
+  --second-background-color: #2f303a;
+}
 }
 
 body {
-  color: #212121;
+  color: var(--main-font-color);
   font-family: var(--main-font);
 }
 
@@ -17,13 +24,13 @@ body {
 }
 /* =======HEADER======== */
 .header-logo {
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .first-word-header-logo {
   color: var(--accent-color);
@@ -33,7 +40,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -45,7 +52,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--descriprion-font-color);
 }
 .mail-link:hover,
 .mail-link :focus {
@@ -59,7 +66,7 @@ body {
 
 /* ==========HERO============ */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--second-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -68,18 +75,28 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-font-color);
 }
 
 .modal-btn-hero {
-  cursor: pointer;
-  color: #ffffff;
-  background-color: var(--accent-color);
+font-family: var(--main-font);
+background-color: var(--accent-color);
+cursor: pointer;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--secondary-font-color);
 }
+
 .modal-btn-hero:hover,
 .modal-btn-hero:focus {
-  background-color: #188ce8;
+background-color: var(--hover-hero-btn-color);
 }
+
 /* ==============END HERO=========== */
 
 /* ===============FEATURES=========== */
@@ -95,7 +112,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--descriprion-font-color);
 }
 /* ================END FEATURES========== */
 
@@ -111,7 +128,7 @@ body {
 
 /* ===================OUR TEAM=================== */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-color-team);
 }
 .team-title {
   font-weight: 700;
@@ -133,20 +150,20 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--descriprion-font-color);
 }
 /* ======================END OUR TEAM============== */
 
 /* =====================FOOTER======================= */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--second-background-color);
 }
 .footer-logo {
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--secondary-font-color);
 }
 .first-word-footer-logo {
   color: var(--accent-color);
@@ -166,7 +183,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-font-color);
 }
 .footer-contacts-links {
   font-style: normal;
@@ -180,18 +197,19 @@ body {
 
 /* ====================PORTFOLIO=================== */
 .portfolio-modal-btn {
+  font-family: var(--main-font);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--main-font-color);
+  background-color: var(--background-color-team);
 }
 .portfolio-modal-btn:hover,
 .portfolio-modal-btn:focus {
-  color: #ffffff;
+  color: var(--secondary-font-color);
   background-color: var(--accent-color);
 }
 .projects-subtitle {
@@ -205,6 +223,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--descriprion-font-color);
 }
 /* ===================END PORTFOLIO============= */
