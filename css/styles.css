@@ -8,6 +8,7 @@
   --hover-hero-btn-color: #188ce8;
   --background-color-team: #f5f4fa;
   --second-background-color: #2f303a;
+  --footter-cont-list: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -61,6 +62,10 @@ body {
 .tel-link:focus {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
+
 /* ========END HEADER======== */
 
 /* ==========HERO============ */
@@ -190,7 +195,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footter-cont-list);
 }
 /* ====================END FOOTER================= */
 
